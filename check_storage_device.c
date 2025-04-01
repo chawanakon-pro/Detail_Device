@@ -3,6 +3,7 @@
 #include <sys/statvfs.h>
 #include <mntent.h>
 
+//print_size will select the type GB, MB, KB
 void print_size(unsigned long size) {
     if (size >= 1024L * 1024 * 1024) {
         printf("%.2f GB", size / (1024.0 * 1024 * 1024));
