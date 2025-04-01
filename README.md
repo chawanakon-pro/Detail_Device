@@ -1,4 +1,4 @@
-# Check storage device
+# Check Storage Device
 
 This program is used to display details about every storage device on the system. It provides the following information:
 
